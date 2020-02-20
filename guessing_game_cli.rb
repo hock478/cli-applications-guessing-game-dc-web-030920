@@ -2,7 +2,7 @@ require 'pry'
 def run_guessing_game
   num = rand(7) + 1
   guess = gets.chomp
-  bindind.pry
+  binding.pry
   if num == guess
     puts "You guessed the correct number!"
   elsif guess == "exit"
