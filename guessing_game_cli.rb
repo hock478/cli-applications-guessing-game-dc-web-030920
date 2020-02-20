@@ -1,9 +1,8 @@
-require 'pry'
 
 def run_guessing_game
   num = rand(1..6)
   guess = gets.chomp
-  binding.pry
+  
   if num == guess
     puts "You guessed the correct number!"
   elsif guess == "exit"
