@@ -1,6 +1,5 @@
-require 'pry'
 def run_guessing_game
-  num = rand(7) + 1
+  num = rand(1..6)
   guess = gets.chomp
   if num == guess
     puts "You guessed the correct number!"
@@ -9,5 +8,4 @@ def run_guessing_game
   else
     puts "Sorry! The computer guessed #{num}."
   end
-    binding.pry
 end
