@@ -1,5 +1,5 @@
 # Code your solution here!
-def run_guess_game
+def run_guessing_game
   num = rand(1..6)
   guess = gets.chomp
   if num == guess
